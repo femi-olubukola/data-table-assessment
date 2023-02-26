@@ -5,7 +5,7 @@
       <h2 style="color: #8B84BA">TABLE HEADING</h2>
 
       <v-card class="second-background">
-        <div class="d-flex justify-space-between px-4 py-4">
+        <v-card class="d-flex justify-space-between px-4 py-4">
 
           <div class="d-flex">
             <div class="pr-5">
@@ -32,11 +32,63 @@
             </v-btn>
           </div>
 
-        </div>
+        </v-card>
 
-        <div class="header-background">
+        <v-divider style="color: #8B84BA"/>
 
-        </div>
+        <v-card class="header-background ">
+
+<!--          <div>-->
+<!--            <h1 class="black&#45;&#45;text">fsbfsfbdbsfbsdsbd</h1>-->
+<!--          </div>-->
+          <v-row no-gutters>
+            <v-col cols="1">
+              <div class="pl-5">
+                <v-checkbox
+                    color="indigo"
+                    hide-details
+                ></v-checkbox>
+              </div>
+            </v-col>
+
+
+
+            <v-col cols="3">
+              <div class="pt-5 text-uppercase font-weight-medium" style="color: #8B84BA">
+                Name
+              </div>
+            </v-col>
+
+            <v-col cols="4">
+              <div class="pt-5 text-uppercase font-weight-medium" style="color: #8B84BA">
+                User Status
+              </div>
+            </v-col>
+
+            <v-col cols="2">
+              <div class="pt-5 text-uppercase font-weight-medium" style="color: #8B84BA">
+                Payment Status
+              </div>
+            </v-col>
+
+            <v-col cols="1.3">
+              <div class="pt-5 text-uppercase font-weight-medium" style="color: #8B84BA">
+                Amount
+              </div>
+            </v-col>
+
+<!--            <v-col cols="">-->
+              <div class="pt-5 d-flex justify-end pr-5" style="color: #8B84BA">
+                <v-icon>
+                  mdi-dots-vertical
+                </v-icon>
+              </div>
+<!--            </v-col>-->
+          </v-row>
+
+        </v-card>
+
+        <v-divider style="color: #8B84BA"/>
 
       </v-card>
     </div>
@@ -171,12 +223,13 @@
 
 .header-background {
   background-color: #F2F0F9;
-  height: 8vh;
+  height: 7vh;
   //width: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  //z-index: 2;
 }
 
 
