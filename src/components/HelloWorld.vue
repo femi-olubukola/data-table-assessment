@@ -27,14 +27,14 @@
           </div>
 
           <div class="pl-4">
-            <v-btn outlined class="white--text" style="color: mediumpurple; background-color: mediumpurple">
+            <v-btn outlined large class="white--text" style="background-color: #6d5bd0; font-size: 20px; border-radius: 8px">
               Pay Dues
             </v-btn>
           </div>
 
         </v-card>
 
-        <v-divider style="color: #8B84BA"/>
+        <v-divider style="color: #DADFEC"/>
 
         <v-card class="header-background ">
 
@@ -54,27 +54,27 @@
 
 
             <v-col cols="3">
-              <div class="pt-5 text-uppercase font-weight-medium" style="color: #8B84BA">
+              <h3 class="pt-5 text-uppercase" style="color: #8B84BA">
                 Name
-              </div>
+              </h3>
             </v-col>
 
             <v-col cols="4">
-              <div class="pt-5 text-uppercase font-weight-medium" style="color: #8B84BA">
+              <h3 class="pt-5 text-uppercase" style="color: #8B84BA">
                 User Status
-              </div>
+              </h3>
             </v-col>
 
             <v-col cols="2">
-              <div class="pt-5 text-uppercase font-weight-medium" style="color: #8B84BA">
+              <h3 class="pt-5 text-uppercase" style="color: #8B84BA">
                 Payment Status
-              </div>
+              </h3>
             </v-col>
 
             <v-col cols="1.3">
-              <div class="pt-5 text-uppercase font-weight-medium" style="color: #8B84BA">
+              <h3 class="pt-5 text-uppercase" style="color: #8B84BA">
                 Amount
-              </div>
+              </h3>
             </v-col>
 
 <!--            <v-col cols="">-->
@@ -88,7 +88,7 @@
 
         </v-card>
 
-        <v-divider style="color: #8B84BA"/>
+        <v-divider style="color: #E4E2EB"/>
 
       </v-card>
     </div>
@@ -207,7 +207,7 @@
 }
 
 .second-background {
-  height: 100vh;
+  height: 8vh;
   border-radius: 12px;
   color: #ffffff;
   background-position: center;
@@ -232,6 +232,25 @@
   //z-index: 2;
 }
 
+h2 {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  //font-weight: 400;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  //word-spacing: 1px;
+  //font-weight: 400;
+  //font-style: normal;
+  font-weight: bold;
+}
 
 
 </style>
